@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARVEA - طلبات الواتساب</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        body {
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .price {
+            color: #e91e63;
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: block;
+            margin-top: 15px;
+        }
+        @media (max-width: 600px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ARVEA منتجات</h1>
+        <p>اطلب عبر الواتساب: 0549088511</p>
+    </header>
+
+    <div class="products">
+        <!-- Product 1 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Aloe+Vera+Gel" alt="Aloe Vera Gel">
+            <h3>جال الألوفيرا</h3>
+            <p>جل طبيعي 85% للوجه والجسم</p>
+            <div class="price">1850 DZ</div>
+            <a href="https://wa.me/966549088511?text=أريد%20شراء%20جال%20الألوفيرا%20(ARV-20280)%20-%201850%20DZ" class="whatsapp-btn">
+                اطلب عبر الواتساب
+            </a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Argan+Oil" alt="Argan Oil">
+            <h3>زيت الأركان</h3>
+            <p>زيت مغربي نقي 100%</p>
+            <div class="price">2800 DZ</div>
+            <a href="https://wa.me/966549088511?text=أريد%20شراء%20زيت%20الأركان%20(ARV-20465)%20-%202800%20DZ" class="whatsapp-btn">
+                اطلب عبر الواتساب
+            </a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Royal+Butter" alt="Royal Butter">
+            <h3>الزبدة الملكية</h3>
+            <p>70% زبدة شيا مع الألوفيرا</p>
+            <div class="price">1200 DZ</div>
+            <a href="https://wa.me/966549088511?text=أريد%20شراء%20الزبدة%20الملكية%20(ARV-20311)%20-%201200%20DZ" class="whatsapp-btn">
+                اطلب عبر الواتساب
+            </a>
+        </div>
+
+        <!-- Add 7 more products following the same pattern -->
+    </div>
+</body>
+</html>
